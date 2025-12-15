@@ -5,7 +5,7 @@ export default function Home() {
       <p>Website ini sudah jalan di Vercel</p>
     </main>
   );
-}
+
 // 1. Inisialisasi peta (contoh: Jakarta)
 const map = L.map('map').setView([-6.200000, 106.816666], 13);
 
@@ -34,3 +34,6 @@ L.marker(fireLocation)
 L.polyline([fireStation, fireLocation], {
   color: 'red'
 }).addTo(map);
+  }
+
+
