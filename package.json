@@ -22,5 +22,11 @@
     "eslint-config-next": "16.0.10",
     "tailwindcss": "^4",
     "typescript": "^5"
+    
+  npm install leaflet
+git add .
+git commit -m "install leaflet"
+git push
+  
   }
 }
